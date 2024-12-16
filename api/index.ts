@@ -7,10 +7,11 @@ const app = express();
 
 // Cargar datos de prueba al iniciar la aplicación
 BibliotecaService.cargarDatosDePrueba();
+// origin: ["http://localhost:5173", "Frontend URL", "http://localhost:4173"],
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "Frontend URL", "http://localhost:4173"],
+    origin: '*', // Permitir cualquier origen
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
