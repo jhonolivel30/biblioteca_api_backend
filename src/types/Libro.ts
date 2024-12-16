@@ -1,5 +1,5 @@
 import { z } from "zod";
-import type { Autor } from "@/types";
+import { Autor } from "./Autor";
 
 export const LibroSchema = z.object({
   id: z.number(),

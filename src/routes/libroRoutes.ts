@@ -1,5 +1,5 @@
-import { LibroController } from "@/controllers";
 import { Router } from "express";
+import { LibroController } from "../controllers/libroController";
 
 const router = Router();
 

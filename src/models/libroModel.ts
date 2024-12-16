@@ -1,4 +1,5 @@
-import type { Libro } from "@/types";
+import { Libro } from "../types/Libro";
+
 
 export class LibroModel {
     private static readonly libros: Libro[] = [];

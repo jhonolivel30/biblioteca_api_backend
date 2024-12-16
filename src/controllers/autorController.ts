@@ -1,5 +1,5 @@
-import { BibliotecaService } from "@/services/BibliotecaService";
 import type { Request, Response } from "express";
+import { BibliotecaService } from "../services/BibliotecaService";
 
 export class AutorController {
   static listarAutores(req: Request, res: Response) {

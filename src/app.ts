@@ -1,8 +1,8 @@
 import express from "express";
-import { BibliotecaService } from "@/services/BibliotecaService";
 import chalk from "chalk";
-import autorRoutes from "@/routes/autorRoutes";
-import libroRoutes from "@/routes/libroRoutes";
+import { BibliotecaService } from "./services/BibliotecaService";
+import autorRoutes from "./routes/autorRoutes";
+import libroRoutes from "./routes/libroRoutes";
 
 const app = express();
 const PORT = 3000;
